@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" type="image/code" href="Images/code.png" />
+
+
+	<title>Stephen Roberts</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<!--<link rel="stylesheet" href="../../Tools/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">-->
+<link rel = "stylesheet" href = "stylesheet.css">
+<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+
+
+
+</head>
+<body data-spy = 'scroll' data-target='#myNavbar' data-offset = '70'>
+
+
+<!-- NAVBAR -->
+<nav id='myNavbar' class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" id = 'homeBtn' href="#">Home</a>
+
+  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#about" id='aboutBtn'>About<!--<span class="sr-only">(current)</span>--></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#portfolio" id='portfolioBtn'>Portfolio</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#contact" id='contactBtn'>Contact</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://medium.com/@Stephen.Roberts" target='_blank'>Blog</a>
+      </li>
+
+    </ul>
+    
+  </div>
+</nav>
+
+<!-- END OF NAVBAR -->
+
+<!-- HEADER -->
+
+<div class = "header">
+	<div class = "container">
+		<div class = "row">
+			<div class = "col-lg-6 col-md-6 col-sm-12 col-ms-12">
+			<h1 id='mainTitle'>Stephen Roberts</h1>
+			<h2>Aspiring full-stack web developer</h2>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- END OF HEADER -->
+
+<!-- ABOUT -->
+
+<div class = "about" id = 'about'>
+	<div class = "container">
+		<div class = 'row'>
+			<div class ='col-lg-6 col-md-6 wow fadeInUp'>
+			<h2 id='aboutTitle'>About</h2>
+			<p>
+				Hello, my name is Steve and I'm an aspiring full-stack web developer. I currently work in the financial services industry while studying web development in my spare time.
+			</p>
+      <p>I have experience in HTML, CSS and JavaScript and I am currently learning React, Node and Mongo DB.</p>
+
+			</div>
+
+			<div class = 'col-lg-6 col-md-6 wow fadeInUp'>
+				<img class = 'img-responsive' id = 'me' src = 'images/me.jpg'/>
+				<img class = 'img-responsive' src='images/frontEndCert2.jpg'/>
+			</div>
+
+
+		</div>
+
+		<div class = 'row social'>
+
+		    <div class="col-xl-12">
+		    
+		    <a href='https://www.linkedin.com/in/stephen-roberts-54811689/' target='_blank'><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
+		    <a href='https://github.com/StephenDRoberts' target='_blank'><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+		    <a href = 'https://medium.com/@Stephen.Roberts' target='_blank'><i class="fa fa-medium fa-lg" aria-hidden="true"></i></a>
+		    <a href = 'https://twitter.com/CodeyMc' target='_blank'><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+		    <a href= '#'><img src = 'Images/upworkBlack.png' target='_blank' id='upSmall'></a>
+
+		    </div>
+
+	    	
+
+		</div>
+	</div>
+</div>
+
+<!-- END OF ABOUT -->
+
+<!-- PORTFOLIO -->
+
+<div class = 'portfolio' id = 'portfolio'>
+	<div class = 'container'>
+		<div class = 'row'>
+			<div class = 'col-xl-12'>
+				<h1 id = 'portfolioTitle'>Portfolio</h1>
+			</div>
+		</div>
+
+		<div class = 'row'>
+
+			<div class = "col-xl-4 col-lg-4 col-sm-6 col-xs-12" align='center'>
+           
+           <div class = "img-fluid wow fadeInUp " data-toggle='modal' data-target='#leaderboardModal' data-wow-delay = '0.1s'>
+              <div class='caption'>
+                <h4><strong>React Leaderboard</strong></h4>
+              </div> 
+                
+              <img src="images/leaderboard.jpeg" alt="React leaderboard" class = 'img-thumbnail'>				    
+           </div>
+     	</div>
+
+			<div class = "col-xl-4 col-lg-4 col-sm-6 col-xs-12" align='center'>
+          <div class = "img-fluid wow fadeInUp " data-toggle='modal' data-target='#markdownModal' data-wow-delay = '0.15s'>
+             <div class='caption'>
+                <h4><strong>React Mardown Previewer</strong></h4>
+             </div>
+
+			       <img src="images/markdown.jpeg" alt="React Markdown Previewer" class = 'img-thumbnail'>				    
+       		</div>
+     	</div>
+
+			<div class = "col-xl-4 col-lg-4 col-sm-6 col-xs-12" align='center'>    
+        <div class = "img-fluid wow fadeInUp " data-toggle='modal' data-target='#simonModal' data-wow-delay = '0.2s'>
+	        	<div class='caption'>
+              <h4><strong>Star Wars Simon Game</strong></h4>
+            </div>  
+
+            <img src="images/SimonGame.png" alt="Star Wars Simon Game" class = 'img-thumbnail'>
+		    </div>
+   		</div>
+
+	    
+      <div class = "col-xl-4 col-lg-4 col-sm-6 col-xs-12" align='center'>
+          <div class = "img-fluid wow fadeInUp " data-toggle='modal' data-target = '#ticModal' data-wow-delay = '0.25s'>
+            <div class='caption'>
+                <h4><strong>Tic-Tac-Toe Game</strong></h4>
+            </div>  
+
+              <img src = "images/TicTacToe.png" alt="Tic-Tac-Toe Game" class = "img-thumbnail">
+	       	</div>
+	    </div>
+
+		  
+      <div class = "col-xl-4 col-lg-4 col-sm-6 col-xs-12" align='center'>
+          <div class = "img-fluid wow fadeInUp " data-toggle='modal' data-target = '#pomoModal' data-wow-delay = '0.3s'>
+            <div class='caption'>
+                <h4><strong>Pomodoro Clock</strong></h4>
+            </div>  
+
+	       		<img src="images/pomodoro.jpg" alt="Pomodoro Clock" class = "img-thumbnail">
+	       	</div>
+	    </div>
+ 
+	    <div class = "col-xl-4 col-lg-4 col-sm-6 col-xs-12" align='center'>
+          <div class = "img-fluid wow fadeInUp " data-toggle='modal' data-target = '#calcModal' data-wow-delay = '0.35s'>
+
+            <div class='caption'>
+              <h4><strong>JavaScript Calculator</strong></h4>
+            </div>  
+
+		         <img src="images/Calculator.jpg" alt="JavaScript Calculator" class = "img-thumbnail">
+	       	</div>
+	    </div>
+
+	    <div class = "col-xl-4 col-lg-4 col-sm-6 col-xs-12" align='center'>
+
+          <div class = "img-fluid wow fadeInUp " data-toggle='modal' data-target = '#quoteModal' data-wow-delay = '0.4s'>
+            <div class='caption'>
+                <h4><strong>Random Quote Generator</strong></h4>
+            </div>  
+
+		         	<img src="images/Random Quote.jpg" alt="Random Quote Generator" class = "img-thumbnail">
+	       	</div>
+	    </div>
+
+	    <div class = "col-xl-4 col-lg-4 col-sm-6 col-xs-12" align='center'>
+          <div class = "img-fluid wow fadeInUp " data-toggle='modal' data-target = '#wikiModal' data-wow-delay = '0.45s'>
+            <div class='caption'>
+                <h4><strong>Wikiepdia Viewer</strong></h4>
+            </div>  
+
+	         	<img src="images/Wikipedia Viewer.jpg" alt="Wikipedia Viewer" class = "img-thumbnail">
+	       	</div>
+	    </div>
+
+	    <div class = "col-xl-4 col-lg-4 col-sm-6 col-xs-12" align='center'>
+          <div class = "img-fluid wow fadeInUp " data-toggle='modal' data-target = '#twitchModal' data-wow-delay = '0.5s'>
+            <div class='caption'>
+                <h4><strong>Twitch API</strong></h4>
+            </div>  
+			         <img src="images/twitch.jpeg" alt="Twitch API" class = "img-thumbnail">
+	       	 </div>
+	    </div>
+
+    	</div>
+	</div>
+</div>
+
+<!--END OF PORTFOLIO-->
+
+<!-- CONTACT-->
+
+<div class = 'contact' id = 'contact'>
+	<div class = 'container'>
+		<div class = 'row'>
+			<div class = 'col-xl-12'>
+				<h1 id = contactTitle>Contact me</h1>
+				<p>If you would like to get in touch about your project, please contact me via:</p>
+        <p id='contactEmail'>roberts.stephen.david@gmail.com</p>
+			</div>
+		</div>
+
+		<div class = 'row social' id='contactSocial'>
+
+		    <div class="col-xl-12">
+		    
+		    <a href = 'https://www.linkedin.com/in/stephen-roberts-54811689/' target='_blank'><i class="fa fa-linkedin-square fa-4x wow fadeInUp" data-wow-delay = '0.1s' aria-hidden="true" id='linkedin'></i></a>
+		    <a href = 'https://github.com/StephenDRoberts' target='_blank'><i class="fa fa-github fa-4x wow fadeInUp" data-wow-delay = '0.2s' aria-hidden="true" id='github'></i></a>
+		    <a href = 'https://medium.com/@Stephen.Roberts' target='_blank'><i class="fa fa-medium fa-4x wow fadeInUp" data-wow-delay = '0.3s' aria-hidden="true" id='medium'></i></a>
+		    <a href = 'https://twitter.com/CodeyMc' target='_blank'><i class="fa fa-twitter fa-4x wow fadeInUp" data-wow-delay = '0.4s' aria-hidden="true"></i></a>
+		    <a href= '#'><img src = 'Images/upworkBlack.png' id='upwork' class = 'wow fadeInUp' data-wow-delay = '0.5s'></a>
+
+		    </div>
+
+	    	
+
+		</div>
+	</div>
+
+</div>
+
+<!--END OF CONTACT-->
+
+
+<!-- Modals -->
+
+<!--React Leaderboard Modal-->
+<div class="modal fade" id="leaderboardModal" tabindex="-1" role="dialog" aria-labelledby="leaderboardModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">React Freecodecamp Leaderboard</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="images/leaderboard.jpeg" alt="React Freecodecamp Leaderboard" class = 'img-thumbnail'>
+        <h5><strong>UNDER CONSTRUCTION</strong></h5>
+        <p>Leaderboard uses React to change the underlying data from recent high scores and all-time high scores. Data is passed into the bootstrap table via a prop call for the state of the component.</p>
+        <p>Technologies used:</p>
+        <ul>
+        	<li>React</li>
+        </ul>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       <a href = 'https://codepen.io/StephenDRoberts/pen/jYzvLX?editors=0010' target='_blank'><button type="button" class="btn btn-primary">Go to Codepen <i class="fa fa-codepen" aria-hidden="true"></i></button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- END OF REACT LEADERBOARD MODAL-->
+
+<!-- MARKDOWN MODAL-->
+
+<div class="modal fade" id="markdownModal" tabindex="-1" role="dialog" aria-labelledby="markdownModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">React Markdown Previewer</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="images/markdown.jpeg" alt="React Markdown Previewer" class = 'img-thumbnail'>
+        <p>First React and SASS project. GitHub flavoured Markdown typed into input box is rendered in the adjacent column with HTML style attributes. For more info on GitHub markdown, see https://guides.github.com/features/mastering-markdown/</p>
+        <p>Technologies used:</p>
+        <ul>
+        	<li>React</li>
+        	<li>SASS</li>
+        </ul>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <a href = 'https://codepen.io/StephenDRoberts/pen/opzRpV' target='_blank'><button type="button" class="btn btn-primary">Go to Codepen <i class="fa fa-codepen" aria-hidden="true"></i></button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--END OF MARKDOWN MODAL-->
+
+<!--SIMON MODAL-->
+
+<div class="modal fade" id="simonModal" tabindex="-1" role="dialog" aria-labelledby="simonModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Simon Game</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="images/SimonGame.png" alt="Star Wars Simon Game" class = 'img-thumbnail'>
+        <p>Simon Game (similar to Bop-it) starts a pattern of colours/sounds which the user needs to copy. For every correct pattern completion another iteration is added to the pattern, up to a maximum of 20.</p>
+        <p>Strict Mode off - mistakes don't reset pattern</p>
+        <p>Strict Mode on - mistakes means new pattern begins</p>
+        <p>Technologies used:</p>
+        <ul>
+        	<li>HTML</li>
+        	<li>CSS</li>
+        	<li>JavaScript</li>
+        </ul>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <a href = 'https://codepen.io/StephenDRoberts/pen/pPXzqb' target='_blank'><button type="button" class="btn btn-primary">Go to Codepen <i class="fa fa-codepen" aria-hidden="true"></i></button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--END OF SIMON MODAL-->
+
+<!--TIC-TAC-TOE MODAL-->
+
+<div class="modal fade" id="ticModal" tabindex="-1" role="dialog" aria-labelledby="ticModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Tic-Tac-Toe game</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="images/TicTacToe.png" alt="Tic-Tac-Toe game" class = 'img-thumbnail'>
+        <p>Tic-Tac-Toe game. Player is given the choice of x's or o's. Random number generator determines who starts and an indicator below the board shows player's turn status. Currently a beatable version.</p>
+        <p>Technologies used:</p>
+        <ul>
+        	<li>HTML</li>
+        	<li>CSS</li>
+        	<li>JavaScript</li>
+        </ul>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <a href = 'https://codepen.io/StephenDRoberts/pen/vmwEaW' target='_blank'><button type="button" class="btn btn-primary">Go to Codepen <i class="fa fa-codepen" aria-hidden="true"></i></button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--END OF TIC-TAC-TOE MODAL-->
+
+<!--POMODORO CLOCK MODAL-->
+
+<div class="modal fade" id="pomoModal" tabindex="-1" role="dialog" aria-labelledby="pomoModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Pomodoro Clock</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="images/pomodoro.jpg" alt="Pomodoro clock" class = 'img-thumbnail'>
+        <p>Pomodoro clock is a tool to help boost productivity and focus on a task. The user specifies a productive session time and a designated amount of break time. Once the session starts, a timer counts down until completion and then starts the break period.</p>
+        <p>Technologies used:</p>
+        <ul>
+        	<li>HTML</li>
+        	<li>CSS</li>
+        	<li>JavaScript</li>
+        </ul>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <a href = 'https://codepen.io/StephenDRoberts/pen/BRMLmX' target='_blank'><button type="button" class="btn btn-primary">Go to Codepen <i class="fa fa-codepen" aria-hidden="true"></i></button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--END OF POMODORO MODAL-->
+
+<!--JAVASCRIPT CALCULATOR MODAL-->
+
+<div class="modal fade" id="calcModal" tabindex="-1" role="dialog" aria-labelledby="calcModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">JavaScript Calculator</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="images/Calculator.jpg" alt="JavaScript Calculator" class = 'img-thumbnail'>
+        <p>Functions of a real calculator replicated in JavaScript including a clear button and allowing for chaining of mathematical operations.</p>
+        <p>Technologies used:</p>
+        <ul>
+        	<li>HTML</li>
+        	<li>CSS</li>
+        	<li>JavaScript</li>
+        </ul>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <a href = 'https://codepen.io/StephenDRoberts/pen/BRGQWw' target='_blank'><button type="button" class="btn btn-primary">Go to Codepen <i class="fa fa-codepen" aria-hidden="true"></i></button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--END OF JAVASCRIPT CALCULATOR MODAL-->
+
+<!--RANDOM QUOTE GENERATOR-->
+
+<div class="modal fade" id="quoteModal" tabindex="-1" role="dialog" aria-labelledby="quoteModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Random Quote Generator</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="images/Random Quote.jpg" alt="Random Quote Generator" class = 'img-thumbnail'>
+        <p>Famous quotes provided from an external party are randomly selected at a push of a button. A sperate button allows the user to tweet the random quote provided.</p>
+        <p>Technologies used:</p>
+        <ul>
+        	<li>HTML</li>
+        	<li>CSS</li>
+        	<li>JavaScript</li>
+        	<li>jQuery</li>
+        </ul>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <a href = 'https://codepen.io/StephenDRoberts/pen/Kmmejg' target='_blank'><button type="button" class="btn btn-primary">Go to Codepen <i class="fa fa-codepen" aria-hidden="true"></i></button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--END OF RANDOM QUOTE GENERATOR MODAL-->
+
+<!--WIKI VIEWER MODAL-->
+
+<div class="modal fade" id="wikiModal" tabindex="-1" role="dialog" aria-labelledby="wikiModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Wikipedia Viewer</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="images/Wikipedia Viewer.jpg" alt="Wikiepedia Viewer" class = 'img-thumbnail'>
+        <p>Search engine using Wikipedia's API can be used to search for articles on your chosen topic. Alternatively a 'randomise' button provides a random article to read.</p>
+        <p>Technologies used:</p>
+        <ul>
+        	<li>HTML</li>
+        	<li>CSS</li>
+        	<li>JavaScript</li>
+        	<li>jQuery</li>
+        </ul>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <a href = 'https://codepen.io/StephenDRoberts/pen/NjzKNQ' target='_blank'><button type="button" class="btn btn-primary">Go to Codepen <i class="fa fa-codepen" aria-hidden="true"></i></button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--END OF WIKI MODAL-->
+
+<!--TWITCH API MODAL-->
+
+<div class="modal fade" id="twitchModal" tabindex="-1" role="dialog" aria-labelledby="twitchModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Twitch API</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="images/twitch.jpeg" alt="Twitch API" class = 'img-thumbnail'>
+        <p>Details of Twitch TV channels are shown. Includes online status and if live, the details of what is being streamed. Due to changes on API usage, at the time of creation freecodecamp provided JSON data instead of requiring a direct API call.</p>
+        <p>Technologies used:</p>
+        <ul>
+        	<li>HTML</li>
+        	<li>CSS</li>
+        	<li>JavaScript</li>
+        	<li>jQuery</li>
+        </ul>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <a href = 'https://codepen.io/StephenDRoberts/pen/MmXYWZ' target='_blank'><button type="button" class="btn btn-primary">Go to Codepen <i class="fa fa-codepen" aria-hidden="true"></i></button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--END OF TWITCH API MODAL-->
+
+
+<script src="../../Tools/jquery/jquery-3.2.1.min.js"></script>
+<script src='script.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<!--<script src="../../Tools/bootstrap-4.0.0-alpha.6-distjs/bootstrap.min.js"></script>-->
+<script src="https://use.fontawesome.com/a2aed28bdb.js"></script>
+<script src="js/wow.min.js"></script>
+<script>new WOW().init();</script>
+
+
+
+</body>
+</html>
